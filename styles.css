@@ -1,0 +1,91 @@
+<style>
+body
+	{
+	background-color: white;
+	font-family: Arial;
+	font-size: medium;
+	color: black;
+	}
+p { font=Arial;
+   size = 16p;
+   {
+a:link		{color:blue}
+a:visited	{color:blue}
+a:hover		{color:red}
+a:active	{color:red}
+#indent
+	{
+	text-align: left;
+	margin-left: 20%;
+	}
+#leftalign
+	{
+	float: left;
+	clear: left;
+	}
+#centeralign
+	{
+	text-align: center;
+	}
+#center
+	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	}
+h1
+	{
+	color: blue;
+	font-size: xx-large;
+	text-align: center;
+	}
+h2
+	{
+	color: red;
+	font-size: large;
+	text-align: center;
+	}
+h3
+	{
+	color: black;
+	font-size: large;
+	text-align: center;
+	}
+h4
+	{
+	color: black;
+	font-size: small;
+	text-align: center;
+	}
+h5
+	{
+	color: red;
+	font-size: medium;	}
+h6
+	{
+	color: black;
+	font-size: large;	}
+
+hr
+	{
+	width: 100%;
+	border-top-width: 4px;
+	border-top-style: double;
+	border-top-color: blue;
+	clear: both;
+	}
+td.menu1
+	{
+	border: 2px;
+	padding: 2px;
+	width: 10%;
+	text-align: center;
+	}
+iframe
+	{
+	 border: 0;
+	 width:800px;
+	 height:600px;
+	 }
+</style>
