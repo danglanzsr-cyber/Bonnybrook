@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guest List</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        table { border-collapse: collapse; width: 100%; max-width: 500px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #333; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Registered Guests</h1>
+    <table>
+        <tr>
+            <th>Guest Name</th>
+            <th>Table Number</th>
+        </tr>
+        {% for guest in guests %}
+        <tr>
+            <td>{{ guest[0] }}</td>
+            <td>{{ guest[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/">? Back to Registration</a>
+</body>
+</html>
